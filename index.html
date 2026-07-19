@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Room Robin — Privacy Policy</title>
+<style>
+  body { font-family: -apple-system, system-ui, sans-serif; max-width: 720px; margin: 40px auto; padding: 0 20px; line-height: 1.6; color: #2e2a26; }
+  h1 { color: #e85d3d; }
+  h2 { margin-top: 2em; font-size: 1.15em; }
+  .updated { color: #777; font-size: 0.9em; }
+</style>
+</head>
+<body>
+<h1>Room Robin Privacy Policy</h1>
+<p class="updated">Last updated: July 18, 2026</p>
+
+<p>Room Robin ("the app") helps roommates split household chores fairly. This policy explains what we collect, why, and the choices you have.</p>
+
+<h2>What we collect</h2>
+<ul>
+  <li><strong>Account information</strong> — your name and email address. Passwords are stored only as salted bcrypt hashes; we never see or store your plaintext password.</li>
+  <li><strong>Household content</strong> — chore definitions, schedules, assignments, votes, and activity history for households ("nests") you belong to.</li>
+  <li><strong>Photos you take</strong> — before/after chore photos and optional bump photos. These are visible only to members of your nest.</li>
+  <li><strong>Device push token</strong> — if you allow notifications, we store your APNs device token to send you assignment, voting, and bump notifications.</li>
+</ul>
+
+<h2>How we use it</h2>
+<ul>
+  <li>Operate the core service: round-robin chore rotation, photo proof, household voting, and bumps.</li>
+  <li>Send push notifications you can disable at any time in iOS Settings.</li>
+  <li>We do <strong>not</strong> serve ads, sell your data, or use your data for tracking or profiling.</li>
+</ul>
+
+<h2>Where it's stored & who processes it</h2>
+<ul>
+  <li><strong>Supabase</strong> — database and photo storage (private bucket, time-limited signed URLs).</li>
+  <li><strong>Railway</strong> — application hosting.</li>
+  <li><strong>Apple Push Notification service</strong> — notification delivery.</li>
+</ul>
+<p>We do not share your information with anyone else. Photos and activity are visible only to members of your own nest.</p>
+
+<h2>Data retention & deletion</h2>
+<p>Your data is kept while your account exists. To delete your account and associated data, email <a href="mailto:dhwahle@gmail.com">dhwahle@gmail.com</a> and we will delete it within 30 days. Note that deleting your account does not remove content other nest members created.</p>
+
+<h2>Security</h2>
+<p>All traffic uses TLS. Photos live in a private storage bucket accessible only via short-lived signed URLs issued by our server to nest members.</p>
+
+<h2>Children</h2>
+<p>The app is not directed at children under 13, and we do not knowingly collect their data.</p>
+
+<h2>Changes</h2>
+<p>We may update this policy; the "last updated" date above will change and continued use constitutes acceptance.</p>
+
+<h2>Contact</h2>
+<p>Dean Wahle — <a href="mailto:dhwahle@gmail.com">dhwahle@gmail.com</a></p>
+</body>
+</html>
